@@ -1,0 +1,79 @@
+## Compiled source ##
+bin/
+obj/
+out/
+[Bb]uild/
+[Bb]uilds/
+[Ll]og/
+*.log
+
+## User-specific files ##
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.sdf
+*.cache
+*.dbmdl
+*.VC.db
+
+## OS-generated files ##
+[Tt]humbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+*.stackdump
+
+## Visual Studio ##
+.vs/
+.vscode/
+*.code-workspace
+
+## Rider ##
+.idea/
+*.sln.iml
+
+## ASP.NET Scaffolding ##
+ScaffoldingReadMe.txt
+
+## DotCover ##
+*.dotCover
+
+## Test results ##
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Nuke build system ##
+.nuke/
+
+## Paket ##
+.paket/
+paket-files/
+
+## NuGet ##
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+
+## Azure Pipelines ##
+.azdo/
+
+## Others ##
+*.exe
+*.dll
+*.pdb
+*.cache
+*.zip
+*.tar.gz
+*.tgz
+*.7z
+
+## Ignore secrets/configs (se estiver usando) ##
+appsettings.*.json
+secrets.json
